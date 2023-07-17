@@ -1,0 +1,56 @@
+.jumbotron {
+  padding: 27rem 0rem;
+  background-image: url(img/Latar\ Home.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-position-y: top;
+}
+
+#about {
+  padding: 7rem 0rem;
+  background-color: #0e0e0e;
+}
+
+.navbar {
+  position: sticky;
+}
+
+#experience {
+  padding: 5rem;
+  background-color: #0e0e0e;
+}
+
+#project {
+  padding: 5rem 0rem;
+  background-color: #0e0e0e;
+}
+
+#baris1 {
+  padding: 1rem 0rem;
+}
+
+#baris2 {
+}
+
+.display-1 {
+  font-size: 5rem;
+  font-weight: 500;
+}
+
+#skills {
+  padding: 3rem;
+}
+
+#contact {
+  padding: 11rem;
+  background-image: url(img/Latar\ Kontak.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #ff0000;
+}
+
+#apaya {
+  padding: 20px;
+  border-radius: 5px;
+  background: #fff;
+}
