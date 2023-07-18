@@ -1,14 +1,15 @@
 .jumbotron {
-  padding: 27rem 0rem;
+  padding-top: 35vh;
   background-image: url(img/Latar\ Home.jpg);
   background-attachment: fixed;
-  background-position: center;
-  background-position-y: top;
+  background-size: cover;
+  background-position: top;
+  height: 100vh;
 }
 
 #about {
   padding: 7rem 0rem;
-  background-color: #0e0e0e;
+  background-color: #141414;
 }
 
 .navbar {
@@ -16,13 +17,13 @@
 }
 
 #experience {
-  padding: 5rem;
-  background-color: #0e0e0e;
+  padding: 5rem 0rem;
+  background-color: #141414;
 }
 
 #project {
   padding: 5rem 0rem;
-  background-color: #0e0e0e;
+  background-color: #141414;
 }
 
 #baris1 {
@@ -33,7 +34,7 @@
 }
 
 .display-1 {
-  font-size: 5rem;
+  font-size: 7vh;
   font-weight: 500;
 }
 
