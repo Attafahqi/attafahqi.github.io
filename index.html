@@ -2,9 +2,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Attafahqi Dariswan</title>
+    <title>Attafahqi | Landing Page</title>
     <link rel="shortcut icon" href="img/ATD Logo.png" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -12,15 +13,12 @@
     <!-- Navbar -->
     <nav id="Navbar" class="navbar navbar-expand-lg navbar-dark shadow fixed-top" style="background-color: #181818">
       <div class="container">
-        <a class="navbar-brand" href="#home">Attafahqi Dariswan</a>
+        <a href="#home"> <img src="img/ATD Logo.png" alt="Bootstrap" width="30" href="#home" height="30" /></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="#home" href="#home">Home</a>
-            </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="#home" href="#about">About</a>
             </li>
@@ -40,13 +38,13 @@
     <!-- Home -->
     <section id="home" class="jumbotron text-center">
       <span class="display-3" style="color: #141414">
-        <b>I am </b>
+        <b>Hi, I am </b>
         <span id="typing" class="display-1"></span>
       </span>
       <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
       <script>
         var typed = new Typed("#typing", {
-          strings: ["Attafahqi Dariswan", "Electrical Engineering Student", "Videographer"],
+          strings: ["Attafahqi Dariswan", "Electrical Engineering Student", "Videography Enthusiast"],
           loop: true,
           typeSpeed: 30,
           backSpeed: 30,
@@ -57,7 +55,7 @@
     </section>
     <!-- About -->
     <section id="about">
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-duration="100000" style="background-color: #fcd843; padding: 2rem 2rem; border-radius: 5px; color: #141414">
         <div class="row">
           <div class="col-sm-12">
             <div class="row">
@@ -104,7 +102,7 @@
           </div>
         </div>
       </div>
-      <div id="skills">
+      <div id="skills" data-aos="fade-up" data-aos-duration="4000">
         <div class="container">
           <div class="row text-center">
             <div class="container title-box">
@@ -160,9 +158,9 @@
           </div>
         </div>
       </div>
-      <div id="button" class="container">
+      <div id="button" class="container" data-aos="fade-up">
         <button type="button" onclick="location.href='CV.pdf'" class="btn-cv">
-          <h2><img src="img/Download-btn.png" style="width: 40px" /> Curriculum Vitae</h2>
+          <h2><img src="img/Download-btn.png" style="width: 40px" /> Download CV</h2>
         </button>
       </div>
     </section>
@@ -170,12 +168,12 @@
     <section id="experiences">
       <div class="container">
         <div class="row text-center">
-          <div class="container title-box">
+          <div class="container title-box" data-aos="fade-up" data-aos-duration="4000">
             <h2>Experiences</h2>
           </div>
         </div>
         <div class="row" style="padding: 1rem 0rem">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="flip-left">
             <div class="card card-d">
               <img src="img/PSB Genap.jpg" class="card-img-top" alt="PSB Genap" />
               <div class="card-body">
@@ -187,7 +185,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="flip-down">
             <div class="card card-d">
               <img src="img/Excercise.jpg" class="card-img-top" alt="Exercise FTUI" />
               <div class="card-body">
@@ -199,7 +197,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="flip-right">
             <div class="card card-d">
               <img src="img/Kominfo.jpg" class="card-img-top" alt="IME FTUI" />
               <div class="card-body">
@@ -213,7 +211,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="flip-left">
             <div class="card card-d">
               <img src="img/PSB Ganjil.jpg" class="card-img-top" alt="PSB Ganjil" />
               <div class="card-body">
@@ -225,7 +223,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="flip-up">
             <div class="card card-d">
               <img src="img/UIRT.jpg" class="card-img-top" alt="UIRT" />
               <div class="card-body">
@@ -237,7 +235,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="flip-right">
             <div class="card card-d">
               <img src="img/BKUI22.jpg" class="card-img-top" alt="BKUI22" />
               <div class="card-body">
@@ -256,12 +254,12 @@
     <section id="projects">
       <div class="container">
         <div class="row text-center">
-          <div class="container title-box">
+          <div class="container title-box" data-aos="fade-up" data-aos-duration="4000">
             <h2>Projects</h2>
           </div>
         </div>
         <div class="row justify-content-center" style="padding: 1rem 0rem">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="flip-left">
             <div class="card card-d">
               <img src="img/Automatic Lamp.jpg" class="card-img-top" alt="Automatic Lamp" />
               <div class="card-body">
@@ -270,7 +268,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="flip-down">
             <div class="card card-d">
               <img src="img/Race Timing.jpg" class="card-img-top" alt="Race Timing System" />
               <div class="card-body">
@@ -279,7 +277,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="flip-right">
             <div class="card card-d">
               <img src="img/Line Follower.jpg" class="card-img-top" alt="Line Follower Robot" />
               <div class="card-body">
@@ -289,7 +287,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card card-d">
+            <div class="card card-d" data-aos="flip-left">
               <img src="img/Photobooth.jpg" class="card-img-top" alt="Photobooth" />
               <div class="card-body">
                 <h5 class="card-title">Photobooth</h5>
@@ -297,7 +295,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="flip-right">
             <div class="card card-d">
               <img src="img/Skylite.jpg" class="card-img-top" alt="Skylite" />
               <div class="card-body">
@@ -311,7 +309,7 @@
     </section>
     <!-- Contact -->
     <section id="contact" class="px-3">
-      <div class="container" style="padding: 3rem 0rem">
+      <div class="container" style="padding: 3rem 0rem" data-aos="fade-up" data-aos-duration="4000">
         <div id="apaya" class="row">
           <div class="col-md-6 mb-5">
             <h3 class="fw-bold mb-3">Get in touch</h3>
@@ -346,18 +344,16 @@
         </div>
       </div>
       <footer>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="copyright-box">
-                <div class="credits" style="text-align: center; padding-bottom: 3rem">
-                  Designed by <a><b>Attafahqi Dariswan</b></a>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="text-center" style="background-color: rgba(0, 0, 0, 0); padding-bottom: 1rem">
+          <p>© 2023 Copyright <a class="text-black" href="https://www.instagram.com/attafahqi">Attafahqi Dariswan</a></p>
         </div>
       </footer>
     </section>
+    <!-- Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
