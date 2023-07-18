@@ -1,49 +1,58 @@
-.jumbotron {
+#navbar {
+  position: sticky;
+}
+
+#home {
   padding-top: 35vh;
   background-image: url(img/Latar\ Home.jpg);
   background-attachment: fixed;
   background-size: cover;
-  background-position: top;
+  background-position: top center;
+  background-repeat: no-repeat;
   height: 100vh;
+}
+
+#typing {
+  font-size: 7vh;
+  font-weight: 500;
+  color: #fcd843;
+  text-shadow: #141414 2px 2px;
 }
 
 #about {
   padding: 7rem 0rem;
   background-color: #141414;
-}
-
-.navbar {
-  position: sticky;
-}
-
-#experience {
-  padding: 5rem 0rem;
-  background-color: #141414;
-}
-
-#project {
-  padding: 5rem 0rem;
-  background-color: #141414;
-}
-
-#baris1 {
-  padding: 1rem 0rem;
-}
-
-#baris2 {
-}
-
-.display-1 {
-  font-size: 7vh;
-  font-weight: 500;
+  color: white;
 }
 
 #skills {
-  padding: 3rem;
+  padding: 3rem 0rem;
+}
+
+.title-box {
+  background-color: #fcd843;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 5px;
+  color: #141414;
+}
+
+#button {
+  text-align: center;
+}
+
+#experiences {
+  padding: 5rem 0rem;
+  background-color: #141414;
+}
+
+#projects {
+  padding: 5rem 0rem;
+  background-color: #141414;
 }
 
 #contact {
-  padding: 11rem;
+  padding-top: 3rem;
   background-image: url(img/Latar\ Kontak.jpg);
   background-attachment: fixed;
   background-position: center;
@@ -54,4 +63,49 @@
   padding: 20px;
   border-radius: 5px;
   background: #fff;
+}
+
+.col-md-4 {
+  padding: 1rem 1rem;
+}
+
+.btn-cv {
+  background-color: #fcd843;
+  border-radius: 5px;
+  width: 60vh;
+  color: #141414;
+  cursor: pointer;
+  scale: (1.2, 1.2);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.btn-cv:hover,
+.btn-cv:focus,
+.btn-cv:active {
+  -webkit-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+}
+
+.card-s {
+  background-color: #fcd843;
+  color: #141414;
+}
+
+.card-d {
+  background-color: #fcd843;
+  color: #141414;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.card-d:hover,
+.card-d:focus,
+.card-d:active {
+  -webkit-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
 }

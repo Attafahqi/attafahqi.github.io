@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -7,11 +6,11 @@
     <link rel="shortcut icon" href="img/ATD Logo.png" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
     <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <link rel="stylesheet" href="style.css" />
   <body>
-    <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top" style="background-color: #181818">
+    <!-- Navbar -->
+    <nav id="Navbar" class="navbar navbar-expand-lg navbar-dark shadow fixed-top" style="background-color: #181818">
       <div class="container">
         <a class="navbar-brand" href="#home">Attafahqi Dariswan</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,10 +25,10 @@
               <a class="nav-link active" aria-current="#home" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="#home" href="#experience">Experiences</a>
+              <a class="nav-link active" aria-current="#home" href="#experiences">Experiences</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="#home" href="#project">Projects</a>
+              <a class="nav-link active" aria-current="#home" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="#home" href="#contact">Contact</a>
@@ -38,19 +37,16 @@
         </div>
       </div>
     </nav>
-    <!--Akhir Navbar-->
-    <!-- Jumbotron -->
+    <!-- Home -->
     <section id="home" class="jumbotron text-center">
       <span class="display-3" style="color: #141414">
         <b>I am </b>
-        <span id="element" class="display-1" style="color: #fcd843; text-shadow: #141414 1px 1px"></span>
+        <span id="typing" class="display-1"></span>
       </span>
-      <!-- Load library from the CDN -->
       <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-      <!-- Setup and start animation! -->
       <script>
-        var typed = new Typed("#element", {
-          strings: ["<b>Attafahqi Dariswan</b>", "<b>Electrical Engineering Student</b>", "<b>Videographer</b>"],
+        var typed = new Typed("#typing", {
+          strings: ["Attafahqi Dariswan", "Electrical Engineering Student", "Videographer"],
           loop: true,
           typeSpeed: 30,
           backSpeed: 30,
@@ -59,131 +55,128 @@
         });
       </script>
     </section>
-    <!-- Akhir Jumbotron -->
-    <!-- About Me -->
-    <section id="about" class="about-mf sect-pt4 route">
+    <!-- About -->
+    <section id="about">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
-            <div class="box-shadow-full">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="row">
-                    <div class="col-sm-6 col-md-5">
-                      <div class="about-img">
-                        <img src="img/S__29605929.jpg" class="img-fluid rounded b-shadow-a" alt="" />
-                      </div>
-                    </div>
-                    <div class="col-sm-6" style="color: #e9e9e9; padding-top: 1rem">
-                      <div class="about-info">
-                        <p>
-                          <span><b>Name: </b></span> <span class="proxima-light">Attafahqi Amirtha Dariswan</span>
-                        </p>
-                        <p>
-                          <span><b>Date of Birth: </b> </span> <span class="proxima-light">11 September 2004</span>
-                        </p>
-                        <p>
-                          <span><b>Gender: </b> </span> <span class="proxima-light">Male</span>
-                        </p>
-                        <p>
-                          <span><b>Nationality: </b></span> <span class="proxima-light">Indonesian</span>
-                        </p>
-                        <p>
-                          <span><b>Language: </b> </span> <span class="proxima-light">Bahasa Indonesia and English</span>
-                        </p>
-                      </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="img/S__29605929.jpg" class="img-fluid rounded b-shadow-a" alt="Foto Diri" />
+                  </div>
+                  <div class="col-md-6 col-md-5">
+                    <div class="about-info">
+                      <p>
+                        <span><b>Name: </b>Attafahqi Amirtha Dariswan</span>
+                      </p>
+                      <p>
+                        <span><b>Date of Birth: </b>11 September 2004</span>
+                      </p>
+                      <p>
+                        <span><b>Gender: </b>Male</span>
+                      </p>
+                      <p>
+                        <span><b>Nationality: </b>Indonesian</span>
+                      </p>
+                      <p>
+                        <span><b>Language: </b>Bahasa Indonesia and English</span>
+                      </p>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-6" style="color: #e9e9e9">
-                  <div class="about-me pt-4 pt-md-0 flex flex-wrap">
-                    <div class="title-box-2">
-                      <h5 class="title-left">About me</h5>
-                    </div>
-                    <p>
-                      Hello there! I'm Attafahqi, but you can call me Atta. I'm currently pursuing my passion for electrical engineering as a student at the prestigious University of Indonesia. I find immense joy in diving deep into the
-                      world of circuits, electronics, and everything that powers our modern lives. However, my interests don't stop there. I have another creative side that thrives in the world of videography. Capturing breathtaking moments
-                      and telling stories through the lens has always fascinated me. Although there may not be an obvious correlation between electrical engineering and videography, I believe that both fields allow me to express my
-                      curiosity, problem-solving skills, and artistic vision in unique ways.
-                    </p>
+              </div>
+              <div class="col-md-6">
+                <div class="about-me pt-4 pt-md-0 flex flex-wrap">
+                  <div class="title-box-2">
+                    <h5 class="title-left">About me</h5>
                   </div>
+                  <p>
+                    Hello there! I'm Attafahqi, but you can call me Atta. I'm currently pursuing my passion for electrical engineering as a student at the prestigious University of Indonesia. I find immense joy in diving deep into the world
+                    of circuits, electronics, and everything that powers our modern lives. However, my interests don't stop there. I have another creative side that thrives in the world of videography. Capturing breathtaking moments and
+                    telling stories through the lens has always fascinated me. Although there may not be an obvious correlation between electrical engineering and videography, I believe that both fields allow me to express my curiosity,
+                    problem-solving skills, and artistic vision in unique ways.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <section id="skills">
+      <div id="skills">
         <div class="container">
           <div class="row text-center">
-            <div class="container" style="background-color: #fcd843; width: fit-content; height: fit-content">
-              <h2 style="color: #141414">Skills</h2>
+            <div class="container title-box">
+              <h2>Skills</h2>
             </div>
           </div>
-          <section id="baris1">
-            <div class="row">
-              <div class="col-md-4" style="padding: 1rem 1rem">
-                <div class="card" style="background-color: #fcd843">
-                  <div class="card-body">
-                    <h5 class="card-title">Softskills</h5>
-                    <p class="card-text">
-                      - Leadership<br />
-                      - Teamwork<br />
-                      - Public Speaking<br />
-                      - Comunication<br />
-                      - Problem Solving <br />
-                      - Adaptive
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4" style="padding: 1rem 1rem">
-                <div class="card" style="background-color: #fcd843">
-                  <div class="card-body">
-                    <h5 class="card-title">Engineering</h5>
-                    <p class="card-text">
-                      - Electrical Wiring<br />
-                      - Wiring Diagram<br />
-                      - Soldering <br />
-                      - Proteus <br />
-                      - KiCad <br />
-                      - Programming (Python, Javascript, etc)
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4" style="padding: 1rem 1rem">
-                <div class="card" style="background-color: #fcd843">
-                  <div class="card-body">
-                    <h5 class="card-title">Videography</h5>
-                    <p class="card-text">
-                      - Directing <br />
-                      - Camera Operation <br />
-                      - Sound Recording <br />
-                      - Video Editing <br />
-                      - Adobe Premiere Pro <br />
-                      - Adobe After Effects
-                    </p>
-                  </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card card-s">
+                <div class="card-body">
+                  <h5 class="card-title">Softskills</h5>
+                  <p class="card-text">
+                    - Leadership<br />
+                    - Teamwork<br />
+                    - Public Speaking<br />
+                    - Comunication<br />
+                    - Problem Solving <br />
+                    - Adaptive
+                  </p>
                 </div>
               </div>
             </div>
-          </section>
+            <div class="col-md-4">
+              <div class="card card-s">
+                <div class="card-body">
+                  <h5 class="card-title">Engineering</h5>
+                  <p class="card-text">
+                    - Electrical Wiring<br />
+                    - Wiring Diagram<br />
+                    - Soldering <br />
+                    - Proteus <br />
+                    - KiCad <br />
+                    - Programming (Python, Javascript, etc)
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card card-s">
+                <div class="card-body">
+                  <h5 class="card-title">Videography</h5>
+                  <p class="card-text">
+                    - Directing <br />
+                    - Camera Operation <br />
+                    - Sound Recording <br />
+                    - Video Editing <br />
+                    - Adobe Premiere Pro <br />
+                    - Adobe After Effects
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </section>
+      </div>
+      <div id="button" class="container">
+        <button type="button" onclick="location.href='CV.pdf'" class="btn-cv">
+          <h2><img src="img/Download-btn.png" style="width: 40px" /> Curriculum Vitae</h2>
+        </button>
+      </div>
     </section>
-    <!-- Akhir About Me -->
     <!-- Experiences -->
-    <section id="experience">
+    <section id="experiences">
       <div class="container">
         <div class="row text-center">
-          <div class="container" style="background-color: #fcd843; width: fit-content; height: fit-content">
-            <h2 style="color: #141414">Experiences</h2>
+          <div class="container title-box">
+            <h2>Experiences</h2>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-4" style="padding: 1rem 1rem">
-            <div class="card" style="background-color: #fcd843">
+        <div class="row" style="padding: 1rem 0rem">
+          <div class="col-md-4">
+            <div class="card card-d">
               <img src="img/PSB Genap.jpg" class="card-img-top" alt="PSB Genap" />
               <div class="card-body">
                 <h5 class="card-title">PSB Genap DTE UI 2023</h5>
@@ -194,8 +187,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4" style="padding: 1rem 1rem">
-            <div class="card" style="background-color: #fcd843">
+          <div class="col-md-4">
+            <div class="card card-d">
               <img src="img/Excercise.jpg" class="card-img-top" alt="Exercise FTUI" />
               <div class="card-body">
                 <h5 class="card-title">Exercise FTUI</h5>
@@ -206,8 +199,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4" style="padding: 1rem 1rem">
-            <div class="card" style="background-color: #fcd843">
+          <div class="col-md-4">
+            <div class="card card-d">
               <img src="img/Kominfo.jpg" class="card-img-top" alt="IME FTUI" />
               <div class="card-body">
                 <h5 class="card-title">Ikatan Mahasiswa Elektro FTUI</h5>
@@ -220,8 +213,8 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4" style="padding: 1rem 1rem">
-            <div class="card" style="background-color: #fcd843">
+          <div class="col-md-4">
+            <div class="card card-d">
               <img src="img/PSB Ganjil.jpg" class="card-img-top" alt="PSB Ganjil" />
               <div class="card-body">
                 <h5 class="card-title">PSB Ganjil DTE UI 2023</h5>
@@ -232,8 +225,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4" style="padding: 1rem 1rem">
-            <div class="card" style="background-color: #fcd843">
+          <div class="col-md-4">
+            <div class="card card-d">
               <img src="img/UIRT.jpg" class="card-img-top" alt="UIRT" />
               <div class="card-body">
                 <h5 class="card-title">Universitas Indonesia Racing Team</h5>
@@ -244,8 +237,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4" style="padding: 1rem 1rem">
-            <div class="card" style="background-color: #fcd843">
+          <div class="col-md-4">
+            <div class="card card-d">
               <img src="img/BKUI22.jpg" class="card-img-top" alt="BKUI22" />
               <div class="card-body">
                 <h5 class="card-title">Bedah Kampus Universitas Indonesia 22</h5>
@@ -259,49 +252,63 @@
         </div>
       </div>
     </section>
-    <!-- Akhir Experinces -->
-    <!-- Project -->
-    <section id="project">
+    <!-- Projects -->
+    <section id="projects">
       <div class="container">
         <div class="row text-center">
-          <div class="container" style="background-color: #fcd843; width: fit-content; height: fit-content">
-            <h2 style="color: #141414">Projects</h2>
+          <div class="container title-box">
+            <h2>Projects</h2>
           </div>
         </div>
-        <section id="baris1">
-          <div class="row">
-            <div class="col-md-4" style="padding: 1rem 1rem">
-              <div class="card" style="background-color: #fcd843">
-                <img src="img/Automatic Lamp.jpg" class="card-img-top" alt="Automatic Lamp" />
-                <div class="card-body">
-                  <h5 class="card-title">Automatic Lamp</h5>
-                  <p class="card-text">A logical circuit device that can turn on a lamp when it detect someone enter the room.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4" style="padding: 1rem 1rem">
-              <div class="card" style="background-color: #fcd843">
-                <img src="img/Race Timing.jpg" class="card-img-top" alt="Race Timing System" />
-                <div class="card-body">
-                  <h5 class="card-title">Race Timing System</h5>
-                  <p class="card-text">A logical circuit device that can count race and lap time.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4" style="padding: 1rem 1rem">
-              <div class="card" style="background-color: #fcd843">
-                <img src="img/Line Follower.jpg" class="card-img-top" alt="Line Follower Robot" />
-                <div class="card-body">
-                  <h5 class="card-title">Line Follower Robot</h5>
-                  <p class="card-text">A 3-wheels motorized robot that can detect and follow line with IR sensor and controled by Arduino</p>
-                </div>
+        <div class="row justify-content-center" style="padding: 1rem 0rem">
+          <div class="col-md-4">
+            <div class="card card-d">
+              <img src="img/Automatic Lamp.jpg" class="card-img-top" alt="Automatic Lamp" />
+              <div class="card-body">
+                <h5 class="card-title">Automatic Lamp</h5>
+                <p class="card-text">A logical circuit device that can turn on a lamp when it detect someone enter the room.</p>
               </div>
             </div>
           </div>
-        </section>
+          <div class="col-md-4">
+            <div class="card card-d">
+              <img src="img/Race Timing.jpg" class="card-img-top" alt="Race Timing System" />
+              <div class="card-body">
+                <h5 class="card-title">Race Timing System</h5>
+                <p class="card-text">A logical circuit device that can count race and lap time.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-d">
+              <img src="img/Line Follower.jpg" class="card-img-top" alt="Line Follower Robot" />
+              <div class="card-body">
+                <h5 class="card-title">Line Follower Robot</h5>
+                <p class="card-text">A 3-wheels motorized robot that can detect and follow line with IR sensor and controled by Arduino.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-d">
+              <img src="img/Photobooth.jpg" class="card-img-top" alt="Photobooth" />
+              <div class="card-body">
+                <h5 class="card-title">Photobooth</h5>
+                <p class="card-text">A small space that used by people to take photos and printed with cacthy layout.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-d">
+              <img src="img/Skylite.jpg" class="card-img-top" alt="Skylite" />
+              <div class="card-body">
+                <h5 class="card-title">Skylite Musical 2021</h5>
+                <p class="card-text">A drama musical about some kids adventure to search some mystery that been hide for along time.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-    <!-- Akhir Project -->
     <!-- Contact -->
     <section id="contact" class="px-3">
       <div class="container" style="padding: 3rem 0rem">
@@ -338,8 +345,19 @@
           </div>
         </div>
       </div>
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="copyright-box">
+                <div class="credits" style="text-align: center; padding-bottom: 3rem">
+                  Designed by <a><b>Attafahqi Dariswan</b></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </section>
-    <!-- Akhir Contact -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   </body>
 </html>
