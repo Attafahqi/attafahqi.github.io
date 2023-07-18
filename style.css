@@ -72,7 +72,7 @@
 .btn-cv {
   background-color: #fcd843;
   border-radius: 5px;
-  width: 60vh;
+  width: fit-content;
   color: #141414;
   cursor: pointer;
   scale: (1.2, 1.2);
