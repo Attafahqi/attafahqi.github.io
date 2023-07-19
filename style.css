@@ -1,8 +1,3 @@
-@font-face {
-  font-family: "urbanist";
-  src: url(font/Urbanist-VariableFont_wght.ttf);
-}
-
 #navbar {
   position: sticky;
 }
