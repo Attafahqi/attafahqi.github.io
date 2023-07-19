@@ -143,12 +143,12 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #fcd843;
+  background: #a5e2f8;
   width: 10px !important;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #fcd843;
+  background: #a5e2f8;
   width: 10px !important;
 }
