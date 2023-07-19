@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "urbanist";
+  src: url(font/Urbanist-VariableFont_wght.ttf);
+}
+
 #navbar {
   position: sticky;
 }
@@ -14,9 +19,9 @@
 
 #typing {
   font-size: 7vh;
-  font-weight: 500;
+  font-weight: 700;
   color: #fcd843;
-  text-shadow: #141414 2px 2px;
+  text-shadow: #141414 1px 1px;
 }
 
 #about {
@@ -30,11 +35,16 @@
 }
 
 .title-box {
-  background-color: #fcd843;
+  padding-top: 7px;
+  background-color: #a5e2f8;
   width: fit-content;
   height: fit-content;
   border-radius: 5px;
   color: #141414;
+}
+
+.title-font {
+  font-weight: 800;
 }
 
 #button {
@@ -42,7 +52,7 @@
 }
 
 #experiences {
-  padding: 5rem 0rem;
+  padding: 4rem 0rem;
   background-color: #141414;
 }
 
@@ -70,7 +80,9 @@
 }
 
 .btn-cv {
-  background-color: #fcd843;
+  font-weight: 500;
+  padding-top: 7px;
+  background-color: #a5e2f8;
   border-radius: 5px;
   width: fit-content;
   color: #141414;
@@ -108,4 +120,36 @@
 .card-d:active {
   -webkit-transform: scale(1.1, 1.1);
   transform: scale(1.1, 1.1);
+}
+
+.web-font {
+  font-family: "Urbanist";
+  font-weight: 500;
+}
+
+.card-title {
+  font-weight: 700;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #141414;
+  width: 10px !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #a5e2f8;
+  width: 10px !important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #a5e2f8;
+  width: 10px !important;
 }
