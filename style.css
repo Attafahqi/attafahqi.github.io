@@ -34,12 +34,16 @@
   padding: 1rem 0rem;
 }
 
+.card {
+  border-radius: 3px;
+}
+
 .title-box {
   padding-top: 7px;
   background-color: #a5e2f8;
   width: fit-content;
   height: fit-content;
-  border-radius: 5px;
+  border-radius: 3px;
   color: #141414;
 }
 
@@ -57,7 +61,7 @@
 }
 
 #projects {
-  padding: 5rem 0rem;
+  padding: 4rem 0rem;
   background-color: #141414;
 }
 
@@ -66,7 +70,7 @@
   background-image: url(img/Latar\ Kontak.jpg);
   background-attachment: fixed;
   background-position: center;
-  background-color: #ff0000;
+  background-color: #fcd843;
 }
 
 #apaya {
@@ -151,4 +155,14 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #a5e2f8;
   width: 10px !important;
+}
+
+#error {
+  padding-top: 35vh;
+  background-color: #141414;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 90vh;
 }
