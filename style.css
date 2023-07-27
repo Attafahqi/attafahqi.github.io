@@ -166,3 +166,92 @@
   background-repeat: no-repeat;
   height: 90vh;
 }
+
+#porto-title {
+  padding-top: 10vh;
+  background-color: #141414;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+}
+
+#lfr {
+  padding-top: 5rem;
+  background-color: #141414;
+  text-align: center;
+}
+
+#rts {
+  padding-top: 5rem;
+  background-color: #141414;
+  text-align: center;
+}
+
+#aul {
+  padding-top: 5rem;
+  background-color: #141414;
+  text-align: center;
+}
+
+#staytuned {
+  padding-top: 10vh;
+  background-color: #141414;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 90vh;
+  text-align: center;
+}
+
+#slt {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+#bkui {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #1995b3;
+  text-align: center;
+}
+
+#uirt {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+#psbga {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #2a63af;
+  text-align: center;
+}
+
+#imebp {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #1d1819;
+  text-align: center;
+}
+
+#exe {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #0d2734;
+  text-align: center;
+}
+
+#psbge {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #fad2a2;
+  text-align: center;
+}
