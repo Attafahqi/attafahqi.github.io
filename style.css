@@ -20,13 +20,13 @@
 #typing {
   font-size: 7vh;
   font-weight: 700;
-  color: #fcd843;
-  text-shadow: #141414 1px 1px;
+  color: #e3344c;
+  text-shadow: #000000 1px 1px;
 }
 
 #about {
-  padding: 5rem 0rem;
-  background-color: #141414;
+  padding: 7rem 0rem;
+  background-color: #000000;
   color: white;
 }
 
@@ -40,11 +40,11 @@
 
 .title-box {
   padding-top: 7px;
-  background-color: #a5e2f8;
+  background-color: #1d1d1f;
   width: fit-content;
   height: fit-content;
   border-radius: 3px;
-  color: #141414;
+  color: #e3344c;
 }
 
 .title-font {
@@ -57,12 +57,12 @@
 
 #experiences {
   padding: 4rem 0rem;
-  background-color: #141414;
+  background-color: #000000;
 }
 
 #projects {
-  padding: 4rem 0rem;
-  background-color: #141414;
+  padding: 5rem 0rem;
+  background-color: #000000;
 }
 
 #contact {
@@ -70,7 +70,7 @@
   background-image: url(img/Latar\ Kontak.jpg);
   background-attachment: fixed;
   background-position: center;
-  background-color: #fcd843;
+  background-color: #e3344c;
 }
 
 #apaya {
@@ -86,10 +86,10 @@
 .btn-cv {
   font-weight: 1000;
   padding-top: 7px;
-  background-color: #a5e2f8;
+  background-color: #e3344c;
   border-radius: 5px;
   width: fit-content;
-  color: #141414;
+  color: white;
   cursor: pointer;
   scale: (1, 1);
   -webkit-transition-duration: 0.3s;
@@ -106,13 +106,10 @@
 }
 
 .card-s {
-  background-color: #fcd843;
-  color: #141414;
+  color: white;
 }
 
 .card-d {
-  background-color: #fcd843;
-  color: #141414;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
@@ -141,25 +138,25 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #141414;
+  background: #000000;
   width: 10px !important;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #a5e2f8;
+  background: #e3344c;
   width: 10px !important;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #a5e2f8;
+  background: #e3344c;
   width: 10px !important;
 }
 
 #error {
   padding-top: 10vh;
-  background-color: #141414;
+  background-color: #000000;
   background-attachment: fixed;
   background-size: cover;
   background-position: top center;
@@ -169,7 +166,7 @@
 
 #porto-title {
   padding-top: 10vh;
-  background-color: #141414;
+  background-color: #000000;
   background-attachment: fixed;
   background-size: cover;
   background-position: top center;
@@ -180,25 +177,25 @@
 
 #lfr {
   padding-top: 5rem;
-  background-color: #141414;
+  background-color: #000000;
   text-align: center;
 }
 
 #rts {
   padding-top: 5rem;
-  background-color: #141414;
+  background-color: #000000;
   text-align: center;
 }
 
 #aul {
   padding-top: 5rem;
-  background-color: #141414;
+  background-color: #000000;
   text-align: center;
 }
 
 #staytuned {
   padding-top: 10vh;
-  background-color: #141414;
+  background-color: #000000;
   background-attachment: fixed;
   background-size: cover;
   background-position: top center;
