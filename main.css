@@ -45,7 +45,6 @@ body {
   width: 100%;
   justify-content: center;
   align-items: start;
-  padding-top: 5vh;
 }
 
 .tulisan-kecil {
@@ -55,6 +54,35 @@ body {
   color: rgb(255, 255, 255);
   text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
   letter-spacing: 1px;
+}
+
+.mobile {
+  text-align: center;
+}
+
+.mobile-about {
+  margin-top: 2em;
+}
+
+.mobile-experiences {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.experiences-date {
+  font-size: 2vh;
+  font-weight: 400;
+  text-align: center;
+}
+
+.mobile-logo {
+  margin: auto;
+}
+
+.mobile-ed {
+  text-align: center;
+  margin: auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -72,6 +100,33 @@ body {
     padding-right: 5vh;
     align-items: center;
     padding-top: 0vh;
+  }
+
+  .mobile {
+    text-align: left;
+  }
+
+  .mobile-about {
+    margin-top: 0;
+  }
+
+  .mobile-experiences {
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: start;
+  }
+
+  .experiences-date {
+    text-align: end;
+  }
+
+  .mobile-logo {
+    margin: 0;
+  }
+
+  .mobile-ed {
+    text-align: start;
+    margin: 0;
   }
 }
 
@@ -184,11 +239,6 @@ body {
 .experiences-title {
   font-size: 3vh;
   font-weight: 700;
-}
-
-.experiences-date {
-  font-size: 2vh;
-  font-weight: 400;
 }
 
 .experiences-btn {
