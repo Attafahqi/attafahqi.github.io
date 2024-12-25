@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Emergency Control</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 50px;
+      }
+      button {
+        font-size: 20px;
+        padding: 15px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Emergency Control</h1>
+    <button onclick="toggleEmergency()">Toggle Emergency</button>
+    <script>
+      function toggleEmergency() {
+        fetch("http://192.168.0.18/toggle") // Hilangkan double slash
+          .then((response) => console.log("Toggled"))
+          .catch((error) => console.error("Error:", error));
+      }
+    </script>
+  </body>
+</html>
