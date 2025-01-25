@@ -134,7 +134,7 @@ body {
   height: 35vh;
   width: 35vh;
   border-radius: 50%;
-  border: 20px solid #ffff;
+  border: 10px solid #ffff;
 }
 
 @media screen and (min-width: 768px) {
@@ -142,7 +142,7 @@ body {
     height: 50vh;
     width: 50vh;
     border-radius: 50%;
-    border: 20px solid #ffffff;
+    border: 10px solid #ffffff;
   }
 }
 
